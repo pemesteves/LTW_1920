@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title>FORM</title>
+	<meta charset="utf-8">
 </head>
 <body>
 	<h1>Form</h1>
@@ -12,20 +13,20 @@
 				Name:
 				<input type="text" name="person_name" required>
 			</label>
-			<label>
-				Age:
-				<input type="radio" name="age" value="lt18" selected>&lt;18
-				<input type="radio" name="age" value="19t35">19-35
-				<input type="radio" name="age" value="36t48">36-48
-				<input type="radio" name="age" value="gt49">&gt;49
-			</label>
+			<fieldset>
+				<legend>Age:</legend>
+				<label><input type="radio" name="age" value="lt18" checked>&lt;18</label>
+				<label><input type="radio" name="age" value="19t35">19-35</label>
+				<label><input type="radio" name="age" value="36t48">36-48</label>
+				<label><input type="radio" name="age" value="gt49">&gt;49</label>
+			</fieldset>
 			<label>
 				Profession: 
 				<input type="text" name="profession" required>
 			</label>
 			<label>
 				Country:
-				<select name="country" size="5" required>
+				<select name="country">
 					<optgroup label="Europe">
 						<option value="portugal" selected>Portugal</option>
 						<option value="spain">Spain</option>
@@ -53,14 +54,14 @@
 					</optgroup>
 				</select>
 			</label>
-			<label>
-				Interests:
-				<input type="checkbox" name="interests" value="web">Web
-				<input type="checkbox" name="interests" value="games">Games
-				<input type="checkbox" name="interests" value="robotics">Robotics
-				<input type="checkbox" name="interests" value="ai">Artificial Inteligence
-				<input type="checkbox" name="interests" value="sports">Sports
-			</label>
+			<fieldset>
+				<legend>Interests:</legend>
+				<label><input type="checkbox" name="interests" value="web">Web</label>
+				<label><input type="checkbox" name="interests" value="games">Games</label>
+				<label><input type="checkbox" name="interests" value="robotics">Robotics</label>
+				<label><input type="checkbox" name="interests" value="ai">Artificial Inteligence</label>
+				<label><input type="checkbox" name="interests" value="sports">Sports</label>
+			</fieldset>
 		</fieldset>
 		<label>
 			How did you found out about the site?

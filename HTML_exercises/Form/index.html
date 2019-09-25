@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FORM</title>
+</head>
+<body>
+	<h1>Form</h1>
+	<form>
+		<fieldset>
+			<legend>Personal data:</legend>
+			<label>
+				Name:
+				<input type="text" name="person_name" required>
+			</label>
+			<label>
+				Age:
+				<input type="radio" name="age" value="lt18" selected>&lt;18
+				<input type="radio" name="age" value="19t35">19-35
+				<input type="radio" name="age" value="36t48">36-48
+				<input type="radio" name="age" value="gt49">&gt;49
+			</label>
+			<label>
+				Profession: 
+				<input type="text" name="profession" required>
+			</label>
+			<label>
+				Country:
+				<select name="country" size="5" required>
+					<optgroup label="Europe">
+						<option value="portugal" selected>Portugal</option>
+						<option value="spain">Spain</option>
+						<option value="france">France</option>
+						<option value="other_europe">Other</option>
+					</optgroup>
+					<optgroup label="Asia">
+						<option value="china">China</option>
+						<option value="other_asia">Other</option>
+					</optgroup>
+					<optgroup label="Africa">
+						<option value="angola">Angola</option>
+						<option value="other_africa">Other</option>
+					</optgroup>
+					<optgroup label="America">
+						<option value="usa">USA</option>
+						<option value="brasil">Brasil</option>
+						<option value="mexico">Mexico</option>
+						<option value="other_america">Other</option>
+					</optgroup>
+					<optgroup label="Oceania">
+						<option value="australia">Australia</option>
+						<option value="new_zealand">New Zealand</option>
+						<option value="other_oceania">Other</option>
+					</optgroup>
+				</select>
+			</label>
+			<label>
+				Interests:
+				<input type="checkbox" name="interests" value="web">Web
+				<input type="checkbox" name="interests" value="games">Games
+				<input type="checkbox" name="interests" value="robotics">Robotics
+				<input type="checkbox" name="interests" value="ai">Artificial Inteligence
+				<input type="checkbox" name="interests" value="sports">Sports
+			</label>
+		</fieldset>
+		<label>
+			How did you found out about the site?
+			<textarea name="description" rows="4" cols="50" required></textarea>
+		</label>
+		<input type="submit" value="Send" formmethod="get">
+	</form>
+</body>
+</html>

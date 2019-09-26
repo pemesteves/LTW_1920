@@ -1,0 +1,49 @@
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+
+nav ul li {
+	display: inline;
+	text-decoration: none;
+	padding: 0 0.5em;
+	border-style: dotted;
+}
+
+nav ul li:first-child {   
+	padding-left: 0;
+}
+
+nav ul li a{
+	color: blue;
+	text-decoration: none;
+}
+
+nav ul li a:hover{
+	background-color: lightblue;
+	color: green;
+}
+
+#personal_data img {
+	max-width: 200px;
+}
+
+#personal_data h3 {
+	font-size: 150%;
+}
+
+#posts section {
+	border-style: solid;
+	border-color: grey;
+}
+
+#posts section img {
+	max-width: 100%;
+}
+
+.date, .comment {
+	color: darkblue;
+}

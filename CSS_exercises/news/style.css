@@ -79,6 +79,8 @@ img {
 
 #menu li {
     list-style-type: none;
+    text-align: center;
+    padding: 1em 0;
 }
 
 #menu li a {
@@ -99,6 +101,36 @@ img {
 #news article {
     margin-top: 1em;
 }
+
+#menu ul > :first-child {
+    border-top: 3px solid #E1493E;
+}
+
+#menu ul :nth-child(2) {
+    border-top: 3px solid #8ABA56;
+}
+
+#menu ul :nth-child(3) {
+    border-top: 3px solid #5B4282;
+}
+
+#menu ul :nth-child(4) {
+    border-top: 3px solid #FF8932;
+}
+
+#menu ul :nth-child(5) {
+    border-top: 3px solid #19B6E9;
+}
+
+#menu ul :nth-child(6) {
+    border-top: 3px solid #E84C8B;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+}
+
 
 nav input, nav label {
     display: none;

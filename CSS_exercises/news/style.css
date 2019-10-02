@@ -1,3 +1,11 @@
+body {
+    background-color: #EDEFF0;
+}
+
+#menu, #news article {
+    background-color: white;
+}
+
 header {
     background-color: #046DD5 ;
 }
@@ -85,6 +93,7 @@ img {
 
 #menu li a {
     color: black;
+    font-weight: bold;
 }
 
 #news article p:first-of-type::first-letter {

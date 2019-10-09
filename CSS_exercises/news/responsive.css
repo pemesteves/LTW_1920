@@ -30,17 +30,54 @@
         display: none;
     }
 
+    #menu label {
+        padding: 1em;
+        background-color: black;
+        color: white;
+    }
+
     #menu label::before {
         content: "\2630";
     }
-    
+
+    #menu input:checked + label::before {
+        content: "\2715";
+    }
+
     #menu input:checked ~ ul {
         display: block;
-        flex-direction: column; 
     }
 
     #menu input:checked ~ ul li {
         flex-grow: 1;
         flex-wrap: wrap;
+        border-top: 0;
+        text-align: left;
+        padding-left: 1em;
+        background-color: #EDEFF0;
+    }
+
+    #menu input:checked ~ ul > :first-child {
+        border-left: 3px solid #E1493E;
+    }
+    
+    #menu input:checked ~ ul :nth-child(2) {
+        border-left: 3px solid #8ABA56;
+    }
+    
+    #menu input:checked ~ ul :nth-child(3) {
+        border-left: 3px solid #5B4282;
+    }
+    
+    #menu input:checked ~ ul :nth-child(4) {
+        border-left: 3px solid #FF8932;
+    }
+    
+    #menu input:checked ~ ul :nth-child(5) {
+        border-left: 3px solid #19B6E9;
+    }
+    
+    #menu input:checked ~ ul :nth-child(6) {
+        border-left: 3px solid #E84C8B;
     }
 }

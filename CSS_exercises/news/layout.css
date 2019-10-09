@@ -18,8 +18,8 @@ body > header {
 
 body > footer {
     grid-area: footer;
+    width: 97.5%;
 }
-
 
 body {
     width: 60em;
@@ -29,7 +29,7 @@ body {
         'header header header'
         'menu menu right'
         'main main right'
-        'footer footer related';  
+        'footer footer right';  
 }
 
 body > header h1 {

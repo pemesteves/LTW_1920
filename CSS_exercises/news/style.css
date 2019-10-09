@@ -6,6 +6,10 @@ body {
     background-color: white;
 }
 
+#news article header {
+    background-color: transparent;
+}
+
 header {
     background-color: #046DD5 ;
 }
@@ -16,10 +20,6 @@ header {
 
 footer {
     color: white;
-}
-
-#news header {
-    background-color: inherit;
 }
 
 #news footer {

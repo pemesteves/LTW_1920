@@ -42,13 +42,14 @@ body > header h2 {
 
 #signup {
     grid-area: signup;
+    float: right;
 }
 
 body > header {
     display: grid;
     grid: 
-        'headerTitle headerTitle headerTitle'
-        'headerSubtitle headerSubtitle signup';
+        'headerTitle headerTitle  headerTitle headerTitle headerTitle headerTitle'
+        'headerSubtitle headerSubtitle headerSubtitle headerSubtitle headerSubtitle signup';
 } 
 
 #menu ul {

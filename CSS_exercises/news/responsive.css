@@ -1,0 +1,46 @@
+@media (max-width: 60em) {
+    body, #news {
+        width: 100%;
+    }
+
+    #news {
+        padding: 0;
+        margin: 0;
+    }
+
+    #news article {
+        margin-top: 0;
+    }
+    
+    #related {
+        display: none;
+    }
+}
+
+@media (max-width: 35em) {
+    nav input, nav label {
+        display: block;
+    }
+
+    #menu input {
+        display: none;
+    }
+
+    #menu input ~ ul {
+        display: none;
+    }
+
+    #menu label::before {
+        content: "\2630";
+    }
+    
+    #menu input:checked ~ ul {
+        display: block;
+        flex-direction: column; 
+    }
+
+    #menu input:checked ~ ul li {
+        flex-grow: 1;
+        flex-wrap: wrap;
+    }
+}

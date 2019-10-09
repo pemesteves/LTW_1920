@@ -48,7 +48,7 @@ body > header h2 {
 body > header {
     display: grid;
     grid: 
-        'headerTitle headerTitle  headerTitle headerTitle headerTitle headerTitle'
+        'headerTitle headerTitle headerTitle headerTitle headerTitle headerTitle'
         'headerSubtitle headerSubtitle headerSubtitle headerSubtitle headerSubtitle signup';
 } 
 

@@ -1,0 +1,145 @@
+body {
+    background-color: #EDEFF0;
+}
+
+#menu, #news article {
+    background-color: white;
+}
+
+#news article header {
+    background-color: transparent;
+}
+
+header {
+    background-color: #046DD5 ;
+}
+
+#related, footer {
+    background-color: #2A2F33;
+}
+
+footer {
+    color: white;
+}
+
+#news footer {
+    background-color: #F4655F;
+}
+
+#news footer a {
+    border-bottom: 1px solid white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#related p {
+    color: white;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1em;
+}
+
+#related p, #news article p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1, p, #news footer{
+    padding: 1em;
+}
+
+body header {
+    padding: 1em ;
+}
+
+body header h1 {
+    padding: 0;
+    margin-bottom: 0.25em;
+    font-size: 1.5em;
+}
+
+body header h2 {
+    padding: 0;
+    margin-bottom: 0.5em;
+    font-size: 0.75em;
+}
+
+#signup {
+    font-size: 0.8em;
+}
+
+#signup > :first-child {
+    padding-right: 1em;
+    border-right: 1px solid white;
+}
+
+#signup > :not(:first-child) {
+    padding-left: 1em;
+}
+
+img {
+    width: 100%;
+}
+
+#menu li {
+    list-style-type: none;
+    text-align: center;
+    padding: 1em 0;
+}
+
+#menu li a {
+    color: black;
+    font-weight: bold;
+}
+
+#news article p:first-of-type::first-letter {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#news article header {
+    position: absolute;
+    width: 15em;
+    text-shadow: 4px 4px 8px black;
+}
+
+#news article {
+    margin-top: 1em;
+}
+
+#menu ul > :first-child {
+    border-top: 3px solid #E1493E;
+}
+
+#menu ul :nth-child(2) {
+    border-top: 3px solid #8ABA56;
+}
+
+#menu ul :nth-child(3) {
+    border-top: 3px solid #5B4282;
+}
+
+#menu ul :nth-child(4) {
+    border-top: 3px solid #FF8932;
+}
+
+#menu ul :nth-child(5) {
+    border-top: 3px solid #19B6E9;
+}
+
+#menu ul :nth-child(6) {
+    border-top: 3px solid #E84C8B;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav input, nav label {
+    display: none;
+}

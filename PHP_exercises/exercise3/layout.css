@@ -1,0 +1,62 @@
+body > header {
+    grid-area: header;
+}
+
+#menu {
+    grid-area: menu;
+}
+
+#news {
+    grid-area: main;
+    padding: 1em;
+    padding-left: 0;
+} 
+
+#related {
+    grid-area: right;
+}
+
+body > footer {
+    grid-area: footer;
+    width: 97.5%;
+}
+
+body {
+    width: 60em;
+    margin: 0 auto;
+    display: grid;   
+    grid: 
+        'header header header'
+        'menu menu right'
+        'main main right'
+        'footer footer right';  
+}
+
+body > header h1 {
+    grid-area: headerTitle;
+} 
+
+body > header h2 {
+    grid-area: headerSubtitle;
+}
+
+#signup {
+    grid-area: signup;
+    float: right;
+}
+
+body > header {
+    display: grid;
+    grid: 
+        'headerTitle headerTitle headerTitle headerTitle headerTitle headerTitle'
+        'headerSubtitle headerSubtitle headerSubtitle headerSubtitle headerSubtitle signup';
+} 
+
+#menu ul {
+    display: flex;
+    width: 100%;
+}
+
+#menu ul li {
+    flex-grow: 1;
+}
